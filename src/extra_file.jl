@@ -16,7 +16,7 @@ my_f(x,y) = 2*x+3*y
         Normal function body
         Enter ?my_f2 to use Julia's help system to view Docstring in REPL
 """
-function my_f2(x,y)::bool   
-    println(x, "and", y)
+function my_f2(x,y)
+    println(x, " and ", y)
     return true
 end
